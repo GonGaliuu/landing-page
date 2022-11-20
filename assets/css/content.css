@@ -45,3 +45,48 @@
     height: 2.5rem;
     width: 12rem;
 }
+
+
+.content__text--register-button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .content{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+
+    .content__image{
+        width: 50vw;
+        margin-top: 1.5rem;
+    }
+
+    .content__image--image-illustration{
+        margin-left: 2.5rem;
+        width: calc(50vw - 5rem);
+    }
+
+    .content__text{
+        margin-top: 2.5rem;
+        margin-left: -2rem;
+        width: calc(50vw - 8rem);
+    }
+
+    .content__text--title{
+        width: calc(50vw - 8rem);
+        text-align: left;
+    }
+
+    .content__text--description{
+        width: calc(50vw - 8rem);
+        text-align: left;
+    }
+
+    .content__text--register-button{
+        margin: 2rem auto 0 0;
+    }
+}
