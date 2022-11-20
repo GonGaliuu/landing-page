@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.content__image{
+    margin: 2.5rem auto;
+    width: calc(100vw - 5rem);
+}
+
+.content__image--image-illustration{
+    width: calc(100vw - 5rem);
+}
+
+.content__text{
+    margin: 0 auto; 
+    width: calc(100vw - 5rem);
+}
+
+.content__text--title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-align: center;
+    width: calc(100vw - 5rem);
+}
+
+.content__text--description{
+    color: white;
+    margin: 1rem 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.content__text--register-button{
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 32px;
+    color: black;
+    display: block;
+    margin: 1rem auto 0 auto;
+    height: 2.5rem;
+    width: 12rem;
+}
