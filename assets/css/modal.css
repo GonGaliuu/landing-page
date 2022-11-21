@@ -1,0 +1,29 @@
+.modal{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
+}
+
+.modal__form{
+    background-color: #f1f1f1;
+    height: 75vh;
+    margin: auto 0;
+    width: 80vw;
+}
+
+.modal__form--imagem{
+    background-color: hsl(257, 40%, 49%);
+    border-radius: 5rem;
+    margin: 1rem auto 0 auto;
+    width: 120px;
+}
+
+.modal__form--imagem-imagem{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}

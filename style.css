@@ -1,6 +1,7 @@
 @import url(assets/css/header.css);
 @import url(assets/css/content.css);
 @import url(assets/css/footer.css);
+@import url(assets/css/modal.css);
 
 body{
     background-color: hsl(257, 40%, 49%);

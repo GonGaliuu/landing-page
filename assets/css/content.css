@@ -29,8 +29,8 @@
 
 .content__text--description{
     color: white;
-    margin: 1rem 0 0 0;
     font-family: 'Open Sans', sans-serif;
+    margin: 1rem 0 0 0;
     text-align: center;
 }
 
@@ -41,8 +41,8 @@
     border-radius: 32px;
     color: black;
     display: block;
-    margin: 1rem auto 0 auto;
     height: 2.5rem;
+    margin: 1rem auto 0 auto;
     width: 12rem;
 }
 
@@ -61,8 +61,8 @@
     }
 
     .content__image{
-        width: 50vw;
         margin-top: 1.5rem;
+        width: 50vw;
     }
 
     .content__image--image-illustration{
@@ -71,19 +71,19 @@
     }
 
     .content__text{
-        margin-top: 2.5rem;
         margin-left: -2rem;
+        margin-top: 2.5rem;
         width: calc(50vw - 8rem);
     }
 
     .content__text--title{
-        width: calc(50vw - 8rem);
         text-align: left;
+        width: calc(50vw - 8rem);
     }
 
     .content__text--description{
-        width: calc(50vw - 8rem);
         text-align: left;
+        width: calc(50vw - 8rem);
     }
 
     .content__text--register-button{

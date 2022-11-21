@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Huddle - Landing Page</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/2a8f6f7900.js" crossorigin="anonymous"></script>
@@ -13,6 +13,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="modal">
+        <div class="modal__close">
+            <div class="modal__close--imagem"></div>
+        </div>
+        <div class="modal__form">
+            <div class="modal__form--imagem">
+                <img src="assets/img/logo_modal.png" class="modal__form--imagem-imagem">
+            </div>
+            <div>
+                <form>
+                    <label for="user">Username</label>
+                    <input type="text">
+                    <label for="user">email</label>
+                    <input type="text">
+                </form>
+                <p>Registration confirmation will be emailed to you.</p>
+                <button>Register</button>
+            </div>
+            <div>
+                <a href="#"><span>Log In</span></a> <p> | </p> <a href="#"><span>Lost Your Password?</span></a>
+                <a href="">Back to Huddle Home</a>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <a href="#"><img src="assets/img/logo.svg" class="header__logo"></a>
     </header>
@@ -25,7 +49,7 @@
         <div class="content__text">
             <h3 class="content__text--title">Build The Community Your Fans Will Love</h3>
             <p class="content__text--description">Huddle re-imagines the way we build communities. You have voice, but so does your audience. Create connections with your users as you engage in genuine discussion</p>
-            <button class="content__text--register-button">Register</button>
+            <button class="content__text--register-button" id="registrar">Register</button>
         </div>
     </section>
     <footer class="footer">
