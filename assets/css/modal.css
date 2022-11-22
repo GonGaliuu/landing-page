@@ -24,6 +24,51 @@
 
 .modal__form--imagem-imagem{
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     width: 100px;
 }
+
+.modal__form--container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal__form--container_formulario{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.modal__form--container_formulario-usertitle{
+    display: block;
+    text-align: center;
+}
+
+.modal__form--container_formulario-userinput{
+    display: block;
+    width: 60vw;
+}
+
+.modal__form--container_formulario-emailtitle{
+    display: block;
+    text-align: center;
+}
+
+.modal__form--container_formulario-emailinput{
+    display: block;
+    width: 50vw;
+    
+}
+
+.modal__form--container_formulario_mensage{
+    display: block;
+    width: 90%;
+    margin: 0 auto 2rem auto;
+}
+
+.modal__form--container_formulario_buttonregister{
+    width: 30vw;
+    display: block;
+    margin: 0 2rem 0 auto;
+}
+
