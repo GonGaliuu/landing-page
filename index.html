@@ -13,27 +13,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="modal">
-        <div class="modal__close">
-            <div class="modal__close--imagem"></div>
-        </div>
-        <div class="modal__form">
-            <div class="modal__form--imagem">
-                <img src="assets/img/logo_modal.png" class="modal__form--imagem-imagem">
+    <div class="modal-div">
+        <div class="modal">
+            <div class="modal__fechar">
+                <div class="modal__fechar--botao"></div>
             </div>
-            <div class="modal__form--container">
-                <form class="modal__form--container_formulario">
-                    <label for="user" class="modal__form--container_formulario-usertitle">Username</label><br>
-                    <input type="text" class="modal__form--container_formulario-userinput"><br>
-                    <label for="user" class="modal__form--container_formulario-emailtitle">email</label><br>
-                    <input type="text" class="modal__form--container_formulario-emailinput"><br>
-                </form>
-                <p class="modal__form--container_formulario_mensage">Registration confirmation will be emailed to you.</p>
-                <button class="modal__form--container_formulario_buttonregister">Register</button>
+            <div class="modal__logo">
+                <div class="modal__logo--imagem">
+                    <img src="assets/img/logo_modal.png" class="modal__logo--imagem-logo">
+                </div>
             </div>
-            <div>
-                <a href="#"><span>Log In</span></a> <p> | </p> <a href="#"><span>Lost Your Password?</span></a>
-                <a href="">Back to Huddle Home</a>
+            <div class="modal__formulario">
+                <div class="modal__formulario--form">
+                    <form action="" class="modal__formulario--form_init">
+                        <label for="" class="modal__formulario--form_init-username-title">Username</label>
+                        <input type="text" class="modal__formulario--form_init-username-input">
+                        <label for="" class="modal__formulario--form_init-password-title">Password</label>
+                        <input type="text" class="modal__formulario--form_init-password-input">
+                    </form>
+                </div>
+                <div class="modal__formulario--botao">
+                    <button class="modal__formulario--botao-botao">Registrar</button>
+                </div>
+            </div>
+            <div class="modal__recover">
+                <a href="#" class="modal__recover--password">Recupere sua senha</a></br>
+                <a href="#" class="modal__recover--back">Voltar</a>
             </div>
         </div>
     </div>

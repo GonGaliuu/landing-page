@@ -1,4 +1,4 @@
-.modal{
+.modal-div{
     background-color: rgba(0,0,0,0.5);
     display: flex;
     height: 100vh;
@@ -8,73 +8,76 @@
     z-index: 3;
 }
 
-.modal__form{
-    background-color: #f1f1f1;
-    height: 75vh;
-    margin: auto 0;
+.modal{
     width: 80vw;
+    height: 80vh;
+    background: white;
+    margin: auto auto;
+    border-radius: 16px;
 }
 
-.modal__form--imagem{
-    background-color: hsl(257, 40%, 49%);
-    border-radius: 5rem;
-    margin: 1rem auto 0 auto;
-    width: 120px;
-}
-
-.modal__form--imagem-imagem{
-    display: block;
-    margin: 0 auto 2rem auto;
-    width: 100px;
-}
-
-.modal__form--container{
+.modal__fechar{
+    width: 93%;
+    height: 2rem;
     display: flex;
-    justify-content: center;
+    margin: 1rem auto 0 auto;
+    justify-content: flex-end;
+}
+
+.modal__fechar--botao{
+    background-color: blue;
+    width: 2rem;
+    height: 2rem;
+}
+
+.modal__logo{
+    width: 100%;
+}
+
+.modal__logo--imagem{
+    background-color: hsl(257, 40%, 49%);
+    margin: 0 auto;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 7rem;
+}
+
+.modal__logo--imagem-logo{
+    display: block;
+    width: 7rem;
+}
+
+.modal__formulario{
+    display: flex;
     flex-direction: column;
 }
 
-.modal__form--container_formulario{
-    width: 50vw;
-    margin: 0 auto;
+.modal__formulario--form{
+    background-color: red;
+    margin-top: 1rem;
+    width: 100%;
+    height: 200px;
 }
 
-.modal__form--container_formulario-usertitle{
-    display: block;
-    text-align: center;
+.modal__formulario--botao{
+    margin-top: 1rem;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.modal__form--container_formulario-userinput{
-    display: block;
-    width: 60vw;
+.modal__formulario--botao-botao{
+    width: 6rem;
+    height: 2rem;
+    background-color: blue;
+    margin-right: 1rem;
+    border-radius: 16px;
+    color: white
 }
 
-.modal__form--container_formulario-emailtitle{
-    display: block;
-    text-align: center;
+.modal__recover{
+    background-color: gray;
+    margin-top: 1rem;
 }
-
-.modal__form--container_formulario-emailinput{
-    display: block;
-    width: 50vw;
-    
-}
-
-.modal__form--container_formulario_mensage{
-    display: block;
-    width: 90%;
-    margin: 0 auto 2rem auto;
-}
-
-.modal__form--container_formulario_buttonregister{
-    width: 40vw;
-    height: 7vh;
-    display: block;
-    margin: 0 2rem 0 auto;
-    background-color: rgb(0, 124, 187);
-    border: none;
-    color: white;
-    font-size: 1.2rem;
-    border-radius: 8px;
-}
-
