@@ -10,10 +10,12 @@
 
 .modal{
     width: 80vw;
-    height: 80vh;
-    background: white;
+    height: 90vh;
+    background: rgb(241,241,241);
     margin: auto auto;
     border-radius: 16px;
+    max-width: 500px;
+    max-height: 550px;
 }
 
 .modal__fechar{
@@ -27,6 +29,10 @@
 .modal__fechar--botao{
     display: flex;
     align-items: center;
+}
+
+.modal__fechar--botao:hover{
+    cursor: pointer;
 }
 
 .modal__fechar--botao:hover{
@@ -108,6 +114,10 @@
     border: 1.5px solid hsl(257, 40%, 49%);
 }
 
+.modal__formulario--form_init-password-input::placeholder{
+    margin-left: 2rem;
+}
+
 .modal__formulario--botao{
     margin-top: 1rem;
     width: 100%;
@@ -122,18 +132,26 @@
     height: 3rem;
     background-color: hsl(257, 40%, 49%);
     border: none;
-    margin-right: 1rem;
+    margin-right: 3rem;
     border-radius: 8px;
     color: white
+}
+
+.modal__formulario--botao-botao:hover{
+    cursor: pointer;
 }
 
 .modal__recover{
     margin-top: 1rem;
 }
 
+.item-3{
+    margin-left: 3rem;
+}
+
 .modal__recover--login-menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .modal__recover--login-menu_item{
@@ -150,3 +168,14 @@
 .modal__recover--login-menu-back{
     margin-top: 1rem;
 }
+
+@media screen and (min-width: 400px){
+    .item-1{
+        margin-left: 3rem;
+    }
+    
+    .item-2{
+        margin-left: 6rem;
+    }
+}
+
