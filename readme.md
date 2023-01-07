@@ -11,4 +11,4 @@ Aqui o link da página, caso queira testar:
 
 https://gabrielestefono.github.io/landing-page/
 
-![image](https://user-images.githubusercontent.com/104292192/211126490-a21d476a-0cf1-40d0-ac9b-02fc5b32d4b5.png)
+![image](https://user-images.githubusercontent.com/104292192/211127149-72c66494-45b9-4c18-9cf4-587e139c5297.png)
