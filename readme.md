@@ -1,14 +1,32 @@
-# landing-page
+# Landing Page
 
-Este projeto foi um desafio de 7 dias, onde o meu intuito era de criar uma Landing Page, do site frontendmentos.io
-O desafio em questão é esse:
+O projeto Landing Page é um projeto do site Frontend Mentor, que usei para treinar e melhorar minhas habilidades.
 
-https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0
+## Pré Requisitos
+* Navegador
 
-O site foi feito com HTML, CSS e JavaScript.
+## Instalação
 
-Aqui o link da página, caso queira testar:
+#### Clone o repositório:
+* Abra o terminal (ou prompt de comando) e execute o seguinte comando para clonar o repositório:
+* git@github.com:gabrielestefono/landing-page.git
+#### No terminal, vá para a pasta do projeto clonado:
+~~ cd landing-page
+#### Abra o arquivo index.html no navegador:
+Localize o arquivo index.html na pasta do projeto e abra-o em seu navegador favorito. Isso pode ser feito simplesmente arrastando o arquivo para uma nova janela do navegador ou abrindo o arquivo através do menu "Arquivo" do navegador.
 
+Pronto! Agora você deve estar visualizando o website localmente no seu navegador.
+
+## Como usar:
+
+A página do projeto é a layout para criação/seleção de habilidades de um personagem para um jogo, onde você deve mudar as estatísticas para que o personagem tenha um balanceamento desejável.
+
+## Contato
+
+email: gabrielestefono@hotmail.com
+
+## Link do deploy
 https://gabrielestefono.github.io/landing-page/
 
+## Screenshot
 ![image](https://user-images.githubusercontent.com/104292192/211127149-72c66494-45b9-4c18-9cf4-587e139c5297.png)
