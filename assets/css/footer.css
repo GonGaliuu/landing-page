@@ -1,5 +1,5 @@
 footer{
-    width: calc((27.5px * 3) + 23px);
+    width: calc((28px * 3) + 22px);
     display: flex;
     margin: 0 auto;
     margin-top: 4rem;
@@ -24,3 +24,38 @@ footer{
     background-image: url(../img/instagram.svg);
 }
 
+@media screen and (min-width: 376px) {
+    footer{
+        width: auto;
+        margin-right: 5rem;
+        margin-bottom: 2.5rem;
+        flex: 1;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .footer__link{
+        width: 40px;
+        height: 40px;
+        margin-right: 1rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    #facebook:hover{
+        background-image: url(../img/facebook_hover.svg);
+        transition: 200ms;
+    }
+    
+    #twitter:hover{
+        background-image: url(../img/twitter_hover.svg);
+        transition: 200ms;
+    }
+    
+    #instagram:hover{
+        background-image: url(../img/instagram_hover.svg);
+        transition: 200ms;
+    }
+    
+}

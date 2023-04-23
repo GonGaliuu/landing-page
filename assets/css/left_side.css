@@ -8,3 +8,14 @@
     width: 18.5rem;
     margin-top: 4.375rem;
 }
+
+@media screen and (min-width: 376px) {
+    .leftSide{
+        width: auto;
+    }
+
+    .leftSide__img{
+        width: 43.5rem;
+        height: 31rem;
+    }
+}
