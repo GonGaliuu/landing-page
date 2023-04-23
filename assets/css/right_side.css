@@ -9,6 +9,7 @@
     font-size: 24px;
     font-weight: 600;
     color: #fff;
+    margin-top: 3.75rem;
     width: 17.5rem;
     line-height: 36px;
 }
@@ -45,7 +46,7 @@
     .description{
         align-items:start;
         text-align: left;
-        margin-top: 2.75rem;
+        margin-top: 2rem;
         line-height: 60px;
     }
     
