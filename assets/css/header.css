@@ -1,5 +1,10 @@
-.header__logo{
-    margin-top: 2.25rem;
-    margin-left: 2rem;
-    width: 9rem;
+.header{
+    width: 100vw;
+}
+
+.header__navbar--img{
+    width: 120px;
+    height: 19px;
+    margin-left: 40px;
+    margin-top: 38px;
 }

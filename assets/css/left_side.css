@@ -1,0 +1,10 @@
+.leftSide{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.leftSide__img{
+    width: 18.5rem;
+    margin-top: 4.375rem;
+}

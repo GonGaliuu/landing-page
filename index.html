@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huddle - Landing Page</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/2a8f6f7900.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Huddle</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 </head>
-<body id="body">
+<body>
     <header class="header">
-        <a href="#"><img src="assets/img/logo.svg" class="header__logo"></a>
+        <nav class="header__navbar">
+            <img src="assets/img/logo.svg" alt="logotipo Huddle" class="header__navbar--img">
+        </nav>
     </header>
-    <section class="content">
-        <div class="content__image">
-            <div class="content__image--image">
-                <img src="assets/img/illustration-mockups.svg" class="content__image--image-illustration">
-            </div>
-        </div>
-        <div class="content__text">
-            <h3 class="content__text--title">Build The Community Your Fans Will Love</h3>
-            <p class="content__text--description">Huddle re-imagines the way we build communities. You have voice, but so does your audience. Create connections with your users as you engage in genuine discussion</p>
-            <button class="content__text--register-button" id="registrar">Register</button>
-        </div>
+    <section class="leftSide">
+        <img src="assets/img/illustration-mockups.svg" alt="Ilustração de websites" class="leftSide__img">
+    </section>
+    <section class="description">
+        <h3 class="description__title">Build The Community Your Fans Will Love</h3>
+        <p class="description__text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
+        <button class="description__button">Register</button>
     </section>
     <footer class="footer">
-        <div class="footer__icon-link"><p class="footer__icon"><i class="fa-brands fa-facebook"></i></p></div>
-        <div class="footer__icon-link"><p class="footer__icon"><i class="fa-brands fa-instagram"></i></p></div>
-        <div class="footer__icon-link"><p class="footer__icon"><i class="fa-brands fa-twitter"></i></p></div>
-    </footer>
-    <script src="assets/js/registro.js"></script>
+        <div class="footer__link" id="facebook"></div>
+        <div class="footer__link" id="twitter"></div>
+        <div class="footer__link" id="instagram"></div>
+    </footer class="footer">
 </body>
 </html>
