@@ -27,10 +27,12 @@ footer{
 @media screen and (min-width: 376px) {
     footer{
         width: auto;
-        margin-right: 5rem;
         flex: 1;
+        right: 4rem;
         align-items: flex-end;
         justify-content: flex-end;
+        position: absolute;
+        bottom: 2rem;
     }
 
     .footer__link{
@@ -40,7 +42,6 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         cursor: pointer;
-        margin-bottom: 60px;
     }
 
     #facebook:hover{
