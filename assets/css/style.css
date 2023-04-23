@@ -24,7 +24,7 @@ body{
     .main{
         display: flex;
         justify-content: center;
-        gap: 68px;
-        margin-top: 6.25rem;
+        gap: 64px;
+        margin-top: 6rem;
     }
 }
