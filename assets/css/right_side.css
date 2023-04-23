@@ -46,17 +46,21 @@
         align-items:start;
         text-align: left;
         margin-top: 2.75rem;
+        line-height: 60px;
     }
     
     .description__title{
+        margin-top: 0.5rem;
         width: 30.5rem;
         font-size: 40px;
+        line-height: 27px;
     }
     
     .description__text{
         margin-top: 1.5rem;
         width: 32.5rem;
         font-size: 18px;
+        line-height: 27px;
     }
     
     .description__button{
