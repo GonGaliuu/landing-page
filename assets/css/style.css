@@ -10,7 +10,7 @@ body{
     min-width: 100vw;
     min-height: 100vh;
     background-image: url(../img/bg-mobile.svg);
-    background-color: hsl(257, 40%, 49%);
+    background-color: #674baf;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body{
     .main{
         display: flex;
         justify-content: center;
-        gap: 59px;
+        gap: 68px;
         margin-top: 6.25rem;
     }
 }
