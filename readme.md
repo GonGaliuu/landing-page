@@ -29,4 +29,5 @@ email: gabrielestefono@hotmail.com
 https://gabrielestefono.github.io/landing-page/
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/104292192/211127149-72c66494-45b9-4c18-9cf4-587e139c5297.png)
+![image](https://user-images.githubusercontent.com/104292192/233840196-04c920f6-ac94-4e64-b3f6-09f4449d08fc.png)
+
