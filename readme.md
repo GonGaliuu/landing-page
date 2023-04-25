@@ -1,6 +1,14 @@
 # Landing Page
 
-O projeto Landing Page é um projeto do site Frontend Mentor, que usei para treinar e melhorar minhas habilidades.
+O projeto Landing Page é um projeto do site Frontend Mentor, que usei para treinar e melhorar minhas habilidades. De início, esse projeto foi escolhido por ser simples, a ideia era finalizá-lo e usá-lo como referência para um projeto de aprendizado de React.JS e Vue.JS.
+
+Segue o link do repositório do mesmo projeto feito em React.JS:
+
+https://github.com/gabrielestefono/landing-page_react
+
+Segue o link do repositório do mesmo projeto feito em Vue.JS:
+
+https://github.com/gabrielestefono/landing_page_vue
 
 ## Pré Requisitos
 * Navegador
